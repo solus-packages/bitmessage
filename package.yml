@@ -1,0 +1,29 @@
+name       : bitmessage
+version    : 0.4.4
+release    : 1
+source     :
+    - https://github.com/Bitmessage/PyBitmessage/archive/v0.4.4.tar.gz : 2fe2b1ad4d7426c8777fb429129b7a07c717ea5f00cc3041a03ac19fd3259b3a
+license    : MIT
+summary    : Bitmessage is a P2P communications protocol used to send encrypted messages.
+description: |
+    Bitmessage is a P2P communications protocol used to send encrypted messages to another person or to many subscribers.
+builddeps :
+    - pkgconfig(openssl)
+    - pkgconfig(python-2.7)
+    - python-qt4
+rundeps  :
+    - openssl
+    - python-qt4
+setup  : |
+    %configure
+build  : |
+    %make
+install  : |
+    %make_install PREFIX="/usr"
+    # Desktop Swapping
+    rm $installdir/usr/bin/pybitmessage
+    echo '#!/bin/sh
+    cd /usr/share/pybitmessage
+    exec python2 bitmessagemain.py' > $installdir/usr/bin/pybitmessage
+    chmod +x $installdir/usr/bin/pybitmessage
+    rmdir $installdir/usr/share/pixmaps
