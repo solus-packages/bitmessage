@@ -1,32 +1,25 @@
 name       : bitmessage
-version    : 0.6.0
-release    : 2
+version    : 0.6.2
+release    : 3
 source     :
-    - https://github.com/Bitmessage/PyBitmessage/archive/v0.6.0.tar.gz : 3bee5ca3fe42a95a0bf1f9f7285904e18ae56b0189048968a5257676f25adc08
+    - https://github.com/Bitmessage/PyBitmessage/archive/v0.6.2.tar.gz : bc209725ef7c1b913ec8560557e3e862a11f664bd8c5fd2eea5adcd915acc2c6
 license    : MIT
 component  : network.im
 summary    : Bitmessage is a P2P communications protocol used to send encrypted messages.
 description: |
     Bitmessage is a P2P communications protocol used to send encrypted messages to another person or to many subscribers.
-builddeps :
-    - pkgconfig(openssl)
-    - pkgconfig(python-2.7)
+builddeps  :
+    - python-msgpack
     - python-qt4
-rundeps  :
-    - openssl
+    - python-setuptools
+rundeps    :
+    - python-msgpack
     - python-qt4
-setup  : |
-    %configure
-build  : |
-    %make
-install  : |
-    %make_install PREFIX="/usr"
-    # Desktop Swapping
-    rm $installdir/usr/bin/pybitmessage
-    echo '#!/bin/sh
-    cd /usr/share/pybitmessage
-    exec python2 bitmessagemain.py' > $installdir/usr/bin/pybitmessage
-    chmod +x $installdir/usr/bin/pybitmessage
-    # Remove empty dirs
-    rmdir --ignore-fail-on-non-empty -p $installdir/usr/share/icons/hicolor/scalable/apps
-    rmdir $installdir/usr/share/pixmaps
+setup      : |
+    sed -i '162,167d' setup.py
+build      : |
+    %python_setup
+install    : |
+    %python_install
+    install -Dm00644 desktop/pybitmessage.desktop $installdir/usr/share/applications/pybitmessage.desktop
+    install -Dm00644 desktop/can-icon.svg $installdir/usr/share/icons/hicolor/scalable/apps/pybitmessage.svg
