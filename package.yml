@@ -1,6 +1,6 @@
 name       : bitmessage
 version    : 0.6.2
-release    : 3
+release    : 4
 source     :
     - https://github.com/Bitmessage/PyBitmessage/archive/v0.6.2.tar.gz : bc209725ef7c1b913ec8560557e3e862a11f664bd8c5fd2eea5adcd915acc2c6
 license    : MIT
@@ -15,6 +15,7 @@ builddeps  :
 rundeps    :
     - python-msgpack
     - python-qt4
+    - python-setuptools
 setup      : |
     sed -i '162,167d' setup.py
 build      : |

@@ -2,8 +2,8 @@
     <Source>
         <Name>bitmessage</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>network.im</PartOf>
@@ -327,12 +327,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2017-03-26</Date>
+        <Update release="4">
+            <Date>2017-10-02</Date>
             <Version>0.6.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
