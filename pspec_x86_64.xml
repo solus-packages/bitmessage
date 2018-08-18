@@ -2,8 +2,8 @@
     <Source>
         <Name>bitmessage</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>network.im</PartOf>
@@ -19,13 +19,14 @@
 </Description>
         <PartOf>network.im</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.2-py2.7.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.2-py2.7.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.2-py2.7.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.2-py2.7.egg-info/not-zip-safe</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.2-py2.7.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.2-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="executable">/usr/bin/pybitmessage</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.3.2-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.3.2-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.3.2-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.3.2-py2.7.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.3.2-py2.7.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.3.2-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage-0.6.3.2-py2.7.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/addresses.py</Path>
@@ -42,15 +43,13 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessagemain.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/__init__.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/about.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/about.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/about.ui</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/account.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/account.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/addaddressdialog.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/addaddressdialog.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/addaddressdialog.ui</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/addpeer.ui</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/address_dialogs.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/address_dialogs.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/addressvalidator.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/addressvalidator.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/bitmessage_icons_rc.py</Path>
@@ -61,21 +60,13 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/blacklist.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/blacklist.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/blacklist.ui</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/connect.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/connect.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/connect.ui</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/dialogs.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/dialogs.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/emailgateway.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/emailgateway.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/emailgateway.ui</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/foldertree.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/foldertree.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/help.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/help.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/help.ui</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/iconglossary.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/iconglossary.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/iconglossary.ui</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/languagebox.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/languagebox.pyc</Path>
@@ -88,19 +79,13 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/networkstatus.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/networkstatus.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/networkstatus.ui</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/newaddressdialog.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/newaddressdialog.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/newaddressdialog.ui</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/newaddresswizard.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/newaddresswizard.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/newchandialog.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/newchandialog.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/newchandialog.ui</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/newsubscriptiondialog.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/newsubscriptiondialog.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/newsubscriptiondialog.ui</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/regenerateaddresses.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/regenerateaddresses.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/regenerateaddresses.ui</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/retranslateui.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/retranslateui.pyc</Path>
@@ -111,8 +96,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/settings.ui</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/settingsmixin.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/settingsmixin.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/specialaddressbehavior.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/specialaddressbehavior.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/sound.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/sound.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/specialaddressbehavior.ui</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/statusbar.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/bitmessageqt/statusbar.pyc</Path>
@@ -165,6 +150,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/defaults.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/depends.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/depends.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_ackPayload.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_ackPayload.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_bitcoin.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_bitcoin.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_bootstrap.py</Path>
@@ -175,6 +162,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_inbox.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_msgcoding.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_msgcoding.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_random.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_random.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_search.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_search.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/helper_sent.py</Path>
@@ -224,26 +213,84 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/messagetypes/message.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/messagetypes/vote.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/messagetypes/vote.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/multiqueue.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/multiqueue.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/namecoin.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/namecoin.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/addrthread.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/addrthread.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/advanceddispatcher.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/advanceddispatcher.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/announcethread.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/announcethread.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/asyncore_pollchoose.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/asyncore_pollchoose.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/bmobject.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/bmobject.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/bmproto.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/bmproto.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/connectionchooser.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/connectionchooser.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/connectionpool.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/connectionpool.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/dandelion.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/dandelion.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/downloadthread.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/downloadthread.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/http-old.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/http-old.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/http.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/http.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/httpd.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/httpd.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/https.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/https.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/invthread.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/invthread.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/networkthread.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/networkthread.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/node.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/node.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/objectracker.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/objectracker.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/proxy.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/proxy.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/receivequeuethread.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/receivequeuethread.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/socks4a.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/socks4a.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/socks5.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/socks5.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/stats.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/stats.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/tcp.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/tcp.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/tls.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/tls.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/udp.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/network/udp.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/openclpow.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/openclpow.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/paths.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/paths.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/indicator_libmessaging.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/indicator_libmessaging.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/notification_notify2.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/notification_notify2.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/plugin.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/plugin.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/qrcodeui.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/qrcodeui.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/sound_canberra.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/sound_canberra.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/sound_gstreamer.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/sound_gstreamer.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/sound_playfile.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/plugins/sound_playfile.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/proofofwork.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/proofofwork.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/protocol.py</Path>
@@ -264,6 +311,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/qidenticon.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/queues.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/queues.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/randomtrackingdict.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/randomtrackingdict.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/shared.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/shared.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/shutdown.py</Path>
@@ -278,6 +327,14 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/sslkeys/key.pem</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/state.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/state.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/storage/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/storage/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/storage/filesystem.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/storage/filesystem.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/storage/sqlite.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/storage/sqlite.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/storage/storage.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/storage/storage.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/throttle.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/throttle.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/tr.py</Path>
@@ -323,16 +380,17 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/version.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pybitmessage/version.pyc</Path>
             <Path fileType="data">/usr/share/applications/pybitmessage.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/pybitmessage.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/pybitmessage.svg</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2017-10-02</Date>
-            <Version>0.6.2</Version>
+        <Update release="5">
+            <Date>2018-08-18</Date>
+            <Version>0.6.3.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>

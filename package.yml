@@ -1,8 +1,8 @@
 name       : bitmessage
-version    : 0.6.2
-release    : 4
+version    : 0.6.3.2
+release    : 5
 source     :
-    - https://github.com/Bitmessage/PyBitmessage/archive/v0.6.2.tar.gz : bc209725ef7c1b913ec8560557e3e862a11f664bd8c5fd2eea5adcd915acc2c6
+    - https://github.com/Bitmessage/PyBitmessage/archive/0.6.3.2.tar.gz : 1008d9b34070774267df005389d7e478b42131f79b63c40b1eb8212e67067ac3
 license    : MIT
 component  : network.im
 summary    : Bitmessage is a P2P communications protocol used to send encrypted messages.
